@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide karo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+        body{
+            /* background-color: rgb(0, 0, 0); */
+            /* color: whitesmoke; */
+            box-sizing: border-box;
+        }
+        
+        .section{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background:url('/bg.jpg') no-repeat center/100% ;
+            
+        }
+        .text{
+            margin-top:3vh;
+            margin-bottom: 3vh;
+            width: 60%;
+            text-align: center;
+            
+        }
+        .mybtn{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .aboutus{
+            background-color: rgb(255, 249, 192);
+            width: 100%;
+            color: rgb(0, 0, 0);
+        }
+        .aboutus p{
+           width: 70%;
+           margin: auto;
+        }
+        .heading{
+            text-align: center;
+        }
+        @media only screen and (max-width: 600px) {
+ 
+            h1{
+                margin-top:45px ;
+                font-size: 6vw;
+                background-color: rgb(254, 202, 202);
+            }
+            .section{
+           /* min-height: 65vh; */
+           height: auto;
+            background:url('/bg.jpg') no-repeat center/170% ;
+
+            
+        }
+        h6{
+            font-size: 4vw;
+        }
+        .btn{
+            font-size:3vw ;
+        }
+        .card-title{
+            font-size:6vw ;
+        }
+}
+    </style>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#h">Guide Karo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#h">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#c">Contact us</a>
+            </li>
+            
+        
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<!-- intro -->
+    <div class="section" id="h">
+        <div class="heading">
+            <h1>
+                GUIDANCE + INTERNSHIPS
+            </h1>
+                </div>
+                <div class="text">
+                    <h6>We are passionate about technology and believe in the power of software to transform the world. Our internship program is just one of the ways in which we are investing in the future of the industry.</h6>
+                    <div class="mybtn">
+                        
+            <button type="button" class="btn btn-danger">4 WEEK INTERNSHIPS</button>
+            
+            <button type="button" class="btn btn-danger">6 MONTH INTERNSHIPS</button>
+                    </div>
+                </div>
+    </div>
+
+<div class="card text-center" id="c">
+    <div class="card-header">
+      CONTACT US
+    </div>
+    
+      <h5 class="card-title">info.guidekaro@gmail.com</h5>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary">LINKEDIN</a>
+  
+    
+  </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
